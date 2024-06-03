@@ -1,7 +1,7 @@
 # Allkit 🛠
 
-[![NPM Version](https://img.shields.io/npm/v/allkit?logo=npm&labelColor=cb0000&color=black)](https://www.npmjs.com/package/minform)
-
+[![NPM Version](https://img.shields.io/npm/v/allkit?logo=npm&labelColor=cb0000&color=black)](https://www.npmjs.com/package/allkit)
+![npm bundle size](https://img.shields.io/bundlephobia/min/allkit?label=BundlePhobia&labelColor=blackn&color=gree)
 <p align="center">
 <img src="allkit-logo.svg" width="300">
 </p>
