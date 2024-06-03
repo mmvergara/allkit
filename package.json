@@ -28,6 +28,7 @@
     "shelljs": "^0.8.5"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.5",
     "@types/inquirer": "^9.0.7",
     "@types/shelljs": "^0.8.15",
     "tsup": "^8.1.0",
