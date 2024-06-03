@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="package-logo.png" width="200px" align="center" />
-</p>
-  <p align="center">
-    WebDev Framework Selection CLI
-  </p>
+## All Kit
+WebDev Framework Selection CLI
 
 ---
 
