@@ -1,0 +1,31 @@
+{
+  "name": "allkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify",
+    "release": "npm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmvergara/allkit.git"
+  },
+  "author": "mmvergara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmvergara/allkit/issues"
+  },
+  "homepage": "https://github.com/mmvergara/allkit#readme",
+  "dependencies": {
+    "inquirer": "^9.2.23",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/shelljs": "^0.8.15",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
