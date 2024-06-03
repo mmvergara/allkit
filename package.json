@@ -2,12 +2,15 @@
   "name": "allkit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
+    "start": "node dist/index.js",
     "build": "tsup src/index.ts --format cjs,esm --dts --minify",
     "release": "npm run build && changeset publish",
     "lint": "tsc"
   },
+  "bin": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mmvergara/allkit.git"
