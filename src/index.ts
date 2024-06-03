@@ -7,17 +7,17 @@ const commands = {
   "Next.js": "npx create-next-app@latest",
 };
 
-const main = async () => {
-  const answer: keyof typeof commands = await inquirer.prompt([
-    {
-      type: "list",
-      name: "framework",
-      message: "Which project do you want to start?",
-      choices: Object.keys(commands),
-    },
-  ]);
+type Answers = { framework: keyof typeof commands };
 
-  const command = commands[answer];
+const main = async () => {
+  const answer: Answers = await inquirer.prompt({
+    type: "list",
+    name: "framework",
+    message: "Which project do you want to start?",
+    choices: Object.keys(commands),
+  });
+
+  const command = commands[answer.framework];
   if (shell.which("pbcopy")) {
     // macOS
     shell.echo(command).exec("pbcopy");
