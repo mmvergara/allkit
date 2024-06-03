@@ -1,5 +1,14 @@
-## All Kit
-WebDev Framework Selection CLI
+# Allkit 🛠
+
+[![NPM Version](https://img.shields.io/npm/v/allkit?logo=npm&labelColor=cb0000&color=black)](https://www.npmjs.com/package/minform)
+
+<p align="center">
+<img src="allkit-logo.svg" width="300">
+</p>
+
+  <h2 align="center">
+ AllKit - WebDev Framework Selection CLI
+  </h2>
 
 ---
 
@@ -11,6 +20,10 @@ npm install -g allkit
 
 npx allkit
 ```
+
+## Supports
+- Next.js
+- Vite
 
 ## Motivation
 
