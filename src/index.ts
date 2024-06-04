@@ -5,6 +5,8 @@ import inquirer from "inquirer";
 const commands = {
   Vite: "npx create-vite@latest",
   "Next.js": "npx create-next-app@latest",
+  Svelte: "npm create svelte@latest",
+  Vue: "npm create vue@latest",
 };
 
 type Answers = { framework: keyof typeof commands };
@@ -20,15 +22,15 @@ const main = async () => {
   const command = commands[answer.framework];
   if (shell.which("pbcopy")) {
     // macOS
-    console.log(`=== Copied to clipboard: ${command}`);
+    console.log(`=== Copied to clipboard: ${command} ===`);
     shell.echo(command).exec("pbcopy");
   } else if (shell.which("xclip")) {
     // Linux
-    console.log(`=== Copied to clipboard: ${command}`);
+    console.log(`=== Copied to clipboard: ${command} ===`);
     shell.echo(command).exec("xclip -selection clipboard");
   } else if (shell.which("clip")) {
     // Windows
-    console.log(`=== Copied to clipboard: ${command}`);
+    console.log(`=== Copied to clipboard: ${command} ===`);
     shell.echo(command).exec("clip");
   } else {
     console.log(
