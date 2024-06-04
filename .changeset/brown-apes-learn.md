@@ -1,0 +1,5 @@
+---
+"allkit": patch
+---
+
+update packagejson
