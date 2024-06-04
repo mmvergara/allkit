@@ -1,6 +1,6 @@
 {
   "name": "allkit",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "WebDev Framework Selection CLI",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -17,6 +17,13 @@
     "type": "git",
     "url": "git+https://github.com/mmvergara/allkit.git"
   },
+  "keywords": [
+    "CLI",
+    "WebDev CLI",
+    "WebDev Frameworks",
+    "WebDev Tools",
+    "WebDev"
+  ],
   "author": "mmvergara",
   "license": "MIT",
   "bugs": {
