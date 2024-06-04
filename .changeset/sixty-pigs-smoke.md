@@ -2,4 +2,4 @@
 "allkit": patch
 ---
 
-readme update
+initial release
