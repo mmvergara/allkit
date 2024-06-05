@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsup src/index.ts --format cjs,esm --dts --minify",
-    "release": "npm run build && changeset pub`lish",
+    "release": "npm run build && changeset publish",
     "lint": "tsc"
   },
   "bin": "dist/index.js",
